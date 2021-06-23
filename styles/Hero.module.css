@@ -1,0 +1,11 @@
+.hero__container {
+    padding: 120px 50px;
+    background-image: url('../public/prog-bg.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__title {
+    font-size: 6em;
+    color: #FBD46D;
+}
