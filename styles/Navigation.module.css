@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.h1 {
+    font-size: 2em;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+}
+
+.li {
+    margin: 0 5px 0 5px;
+}
