@@ -1,0 +1,13 @@
+.footer {
+    padding: 25px;
+    background-color: #171717;
+    color: white;
+}
+
+.footer__credits {
+    letter-spacing: 0.1px;
+}
+
+.link {
+    color: teal;
+}

@@ -1,9 +1,11 @@
 .gallery__container {
     display: grid;
-    width: 50%;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding: 25px;
 }
 
 .gallery__image {
+    object-fit: cover;
     width: 100;
 }

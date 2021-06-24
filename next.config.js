@@ -4,6 +4,6 @@ module.exports = {
         defaultLocale: 'en-US'
     },
     images: {
-        domains: ['source.unsplash.com']
+        domains: ['source.unsplash.com', 'images.unsplash.com']
     }
 }

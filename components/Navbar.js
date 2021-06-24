@@ -6,16 +6,28 @@ import styles from '../styles/Navigation.module.css'
 const Navbar = () => {
     return (
         <nav className={styles.nav}>
-            <h1 className={styles.h1}>PROG</h1>
+            <h1 className={styles.h1}>
+                <Link href="/">
+                    <a>
+                        PROG
+                    </a>
+                </Link>
+            </h1>
             <ul className={styles.ul}>
                 <li className={styles.li}>
-                    <Link href="/about">
+                    <Link href="/screenshots">
                         <a>
-                            About
+                            Screenshots
                         </a>
                     </Link>
                 </li>
-                <li className={styles.li}>Bonus</li>
+                <li className={styles.li}>
+                    <Link href="/bonus">
+                        <a>
+                            Bonus
+                        </a>
+                    </Link>
+                </li>
             </ul>
         </nav>
     )

@@ -1,0 +1,24 @@
+.form {
+    background-color: #202020;
+    color: white;
+    padding: 150px 25px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form__title {
+    font-size: 4em;
+}
+
+.form__input {
+    outline: none;
+    background-color: #121212;
+    color: lightgray;
+    font-size: 2em;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}

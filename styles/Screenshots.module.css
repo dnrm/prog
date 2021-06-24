@@ -1,0 +1,12 @@
+.screenshots {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    padding: 25px;
+    background-color: #202020;
+}
+
+.screenshots__image {
+    object-fit: cover;
+    width: 100;
+}
