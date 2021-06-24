@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Form from '../components/Form';
+import Footer from '../components/Footer';
 
 import { motion } from 'framer-motion'
 
@@ -27,6 +28,7 @@ const bonus = () => {
             <Navbar />
             <Hero title="Bonus" />
             <Form />
+            <Footer />
         </motion.div>
     )
 }
