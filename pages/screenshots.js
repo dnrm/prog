@@ -29,11 +29,11 @@ const screenshots = () => {
             <Navbar />
             <Hero title="Screenshots" />
             <div className={styles.screenshots}>
+                <Image src="/monster.png" className={styles.screenshots__image} layout="responsive" width="100%" height="100%" />
                 <Image src="/bar.png" className={styles.screenshots__image} layout="responsive" width="100%" height="100%" />
                 <Image src="/living-room.png" className={styles.screenshots__image} layout="responsive" width="100%" height="100%" />
                 <Image src="/tables.png" className={styles.screenshots__image} layout="responsive" width="100%" height="100%" />
                 <Image src="/bedroom-lit.png" className={styles.screenshots__image} layout="responsive" width="100%" height="100%" />
-                <Image src="/monster.png" className={styles.screenshots__image} layout="responsive" width="100%" height="100%" />
             </div>
             <Footer />
         </motion.div>

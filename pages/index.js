@@ -32,10 +32,9 @@ export default function Home() {
         <div className={styles.description}>
           <h1 className={styles.subheading}>What is PROG?</h1>
           <p className={styles.body}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe iste voluptates fugiat molestias tempora ab eaque odio animi, vel quae consectetur assumenda voluptas et eius distinctio corrupti iure qui quia.
-            Sequi esse, nam minima beatae ducimus, illo fugit assumenda delectus consectetur eaque ipsum reiciendis repudiandae, dicta accusamus eveniet illum iusto! Nisi praesentium distinctio nam ducimus recusandae. Ullam magni soluta porro.
-            Architecto numquam quisquam totam sint animi, hic eligendi dolorem quam saepe, officiis beatae ea ipsa consequatur! Nemo libero laboriosam temporibus perferendis voluptatum fugiat corrupti eius. Tempora cum cumque nihil perferendis?
+            What do you think of an adventure with your friends? Not just any adventure, do you dare go to a haunted house? Turns out things don't go as good as you all planned, what should you do? Will you be able to survive? Come play PROG and find out!
           </p>
+          <a href="#" className={styles.play}>Play!</a>
         </div>
         <Gallery />
       </main>

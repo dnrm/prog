@@ -5,6 +5,13 @@
     background-color: #202020;
 }
 
+@media only screen and (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
+
 .description {
     padding: 25px;
     color: white;
@@ -20,4 +27,14 @@
 
 .body {
     font-size: 1.2em;
+}
+
+.play {
+    padding: 20px 40px;
+    margin-top: 15px;
+    font-size: 2em;
+    color: #FBD46D;
+    border-radius: 15px;
+    background-color: #171717;
+    border: none;
 }

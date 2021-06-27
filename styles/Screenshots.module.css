@@ -6,6 +6,12 @@
     background-color: #202020;
 }
 
+@media only screen and (max-width: 768px) {
+    .screenshots {
+        grid-template-columns: 1fr;
+    }
+}
+
 .screenshots__image {
     object-fit: cover;
     width: 100;
