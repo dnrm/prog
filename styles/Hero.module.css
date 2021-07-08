@@ -1,6 +1,6 @@
 .hero__container {
     padding: 120px 50px;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../public/jpn-min.jpeg');
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../public/jpn--min.jpeg');
     background-position: center;
     background-size: cover;
 }
