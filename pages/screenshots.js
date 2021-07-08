@@ -42,6 +42,7 @@ const screenshots = () => {
                     height="100%"
                     placeholder="blur"
                     blurDataURL="/min/monster.png"
+                    alt="monster"
                 />
                 <Image
                     src="/bar.png"
@@ -51,6 +52,7 @@ const screenshots = () => {
                     height="100%"
                     placeholder="blur"
                     blurDataURL="/min/bar.png"
+                    alt="bar"
                 />
                 <Image
                     src="/living-room.png"
@@ -60,6 +62,7 @@ const screenshots = () => {
                     height="100%"
                     placeholder="blur"
                     blurDataURL="/min/living-room.png"
+                    alt="living room"
                 />
                 <Image
                     src="/tables.png"
@@ -69,6 +72,7 @@ const screenshots = () => {
                     height="100%"
                     placeholder="blur"
                     blurDataURL="/min/tables.png"
+                    alt="tables"
                 />
                 <Image
                     src="/bedroom-lit.png"
@@ -78,6 +82,7 @@ const screenshots = () => {
                     height="100%"
                     placeholder="blur"
                     blurDataURL="/min/bedroom-lit.png"
+                    alt="bedroom"
                 />
             </div>
             <Footer />

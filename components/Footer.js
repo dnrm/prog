@@ -6,13 +6,13 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <h1>PROG</h1>
-            <h3>© 2021
+            <h2>© 2021
                 <Link href="/about-us">
                     <a className={styles.link}>
                         {' '}PROG Studios
                     </a>
                 </Link>
-            </h3>
+            </h2>
             <p className={styles.footer__credits}>Website developed by Daniel Medina</p>
         </footer>
     )
